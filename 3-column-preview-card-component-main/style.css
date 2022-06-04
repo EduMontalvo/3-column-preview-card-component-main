@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    width: 28%;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+    height: 25%;
+    width: 12rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+.fondo__sedan{
+    width: 50%;
+    height: 28vh;
+    padding: 0 2rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.fondo__suv{
+    width: 50%;
+    height: 28vh;
+    padding: 0 2rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:hsl(184, 100%, 22%);
+}
+.fondo__luxury{
+    width: 50%;
+    height: 28vh;
+    padding: 0 2rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+input{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1.5rem;
+}
+.boton__sedan{
+    color: hsl(31, 77%, 52%);
+    margin-top: 3.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+.boton__suv{
+    color: hsl(184, 100%, 22%);
+    margin-top: 3.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+.boton__luxury{
+    color: hsl(179, 100%, 13%);
+    margin-top: 3.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+@media (min-width:1440px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .fondo__sedan{
+        width: 14%;
+        height: 40vh;
+        border-radius: 0;
+    }
+    .fondo__suv{
+        width: 14%;
+        height: 40vh;
+    }
+    .fondo__luxury{
+        width: 14%;
+        height: 40vh;
+        border-radius: 0;
+    }
+}
